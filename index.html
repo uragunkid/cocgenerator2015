@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="iso-8859-1">
+<title>Clash  of Clans Ultimate Gem, Elixir, Gold Generator 2015</title>
+<meta name="keywords" content="Clash  of Clans Ultimate Gem, Elixir, Gold Generator 2015, Clash of Clans Gem Generator, Clash of Clans Elixir Generator, Clash of Clans Gold Generator, Clash of Clans generator for free, Clash of Clans generator, Clash of Clans generator free online, online Clash of Clans generator for free">
+<script type="text/javascript" src="https://grabtrk.com/script_include.php?id=201724"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/simple-slider.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/simple-slider.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+
+<body>
+<form name="form">
+<div class="container">
+    <div class="content">
+    	<header>
+        </header>
+    	<h2>Clash  of Clans Ultimate Gem, Elixir, Gold Generator 2015</h2>
+    	<p>1. Enter your Clash of Clans player’s name<br /><br />
+        <input type="text" name="text" placeholder="Your player's name" onkeypress="compter(this.form)" /><div id="load">&nbsp;</div><br /><br /></p>
+    	<p>2. Choose the amount of Gold, Gems and Elixir you want then click on Generate<br /><br />
+        <div id="gold"><span class="output">0</span> <input type="text" data-slider="true" data-slider-highlight="true" data-slider-range="1000,1000000" data-slider-step="1000" data-slider-snap="false"></div>
+        <div id="gems"><span class="output">0</span> <input type="text" data-slider="true" data-slider-highlight="true" data-slider-range="1000,1000000" data-slider-step="1000" data-slider-snap="false" class="gems"></div><br />
+        <div id="elixir"><span class="output">0</span> <input type="text" data-slider="true" data-slider-highlight="true" data-slider-range="1000,1000000" data-slider-step="1000" data-slider-snap="false" class="elixir"></div></p>
+        <p><div align="center"><div id="button_validate" onClick="controle();"></div><br />
+        <div id="result"></div></div></p>
+    </div>
+    <div class="content" id="coms">
+    	<br /><br />
+    	<h2>Comments on Clash  of Clans Ultimate Gem, Elixir, Gold Generator 2015</h2>
+        <div id="comments">
+        <div class="comment"><div class="avatar"><img src="img/avatar-4.jpg" width="40" height="40" />
+            <div class="name"><strong>Sandra Bismark</strong> <font style="font-size:13px;"><em>2015-01-10 :<br />"OMG!!! It works! Thank you so much for sharing this Generator with us"</em></font></div></div></div>
+        	<div class="comment"><div class="avatar"><img src="img/avatar-1.jpg" width="40" height="40" />
+            <div class="name"><strong>John</strong> <font style="font-size:13px;"><em>2015-01-05 :<br />"It’s so cool, thanks for this amazing hack"</em></font></div></div></div>
+            <div class="clear"></div>
+            <div class="comment"><div class="avatar"><img src="img/avatar-2.jpg" width="40" height="40" />
+            <div class="name"><strong>Kate</strong> <font style="font-size:13px;"><em>2014-12-26 :<br />"Wow Work great !"</em></font></div></div></div>
+            <div class="clear"></div>
+            <div class="comment"><div class="avatar"><img src="img/avatar-3.jpg" width="40" height="40" />
+            <div class="name"><strong>Guest</strong> <font style="font-size:13px;"><em>2014-12-11 :<br />"without gems you couldn’t win in Clash of Clans. No i’ve got lots of gems and it’s pretty simple"</em></font></div></div></div>
+
+        </div>
+    </div>
+    <br /><br /><br />
+</div>
+</form>
+<script type="text/javascript">
+
+var nb=0;
+
+var nbTimer = Math.floor(Math.random() * 3) * 1000;
+
+function changerImage(){
+	document.getElementById('load').innerHTML = '<img src="img/valid.png" width="33" height="26" /><span class="valid">Player found!</span>';
+}
+	
+
+function compter(f) {
+	var txt=f.text.value;
+	var nb=txt.length;	
+	var min=1; 
+	
+	if (nb>min) { 
+		
+		document.getElementById('load').innerHTML = '<img src="img/loading.gif" width="30" height="30" />';
+		
+		window.setInterval("changerImage()", nbTimer + 1000);
+	}
+	else{
+		document.getElementById('load').innerHTML = '<img src="img/loading.gif" width="30" height="30" />';
+	}
+
+}
+
+function timer() {
+	compter(document.forms["form"]);
+	setTimeout("timer()",100);
+}
+
+function changerButton(){
+	document.getElementById('result').innerHTML = '<img src="img/valid.png" width="33" height="26" /><span class="valid">Gems have been added to your account!</span>';	
+}
+
+function generate(){
+		
+}
+
+function controle(){
+	var t = document.form.text.value;
+		if(t == "") {
+			document.getElementById('load').innerHTML = '<img src="img/false.png" width="33" height="26" /><span class="false">You must enter you player name!</span>';			
+		}
+	    else {
+
+			window.setInterval(onclick="call_locker();", nbTimer + 2000);  
+		} 
+}
+
+</script>
+
+<script type="text/javascript">
+  $("[data-slider]")
+    .each(function () {
+      var input = $(this);
+      $("<span>")
+        .addClass("output")
+        .insertAfter($(this));
+    })
+    .bind("slider:ready slider:changed", function (event, data) {
+      $(this)
+        .nextAll(".output:first")
+          .html(data.value.toFixed(0));
+    });
+</script>
+</body>
+</html>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58539427-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
